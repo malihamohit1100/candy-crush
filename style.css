@@ -1,38 +1,18 @@
 * {
     margin: 0px;
     padding: 0px;
-    background: url("Images/candyBG.png");
 }
-/*
+
 .container {
     background: url("Images/candyBG.png");
-    min-height: 100vh;
-    background-size: 100vw 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }  
 
-#scoreBox {
-    position: absolute;
-    top: 9px;
-    right: 200px;
-    font-size: 39px;
-    font-weight: bold;
-    font-family: cursive;
-}
-
-#board {
-    background: linear-gradient(rgb(157, 240, 125), rgb(245, 255, 169));
-    width: 90vmin;
-    height: 92vmin;
-    border: 5px solid rgb(252, 252, 252);
-    display: grid;
-    grid-template-rows: repeat(18, 1fr);
-    grid-template-columns: repeat(18, 1fr);
-}
-*/
 .grid {
     height: 560px;
     width: 560px;
@@ -40,9 +20,28 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border: 15px solid white;
 }
 
 .grid div {
     height: 70px;
     width: 70px;
+}
+
+#score {
+    position: absolute;
+    top: 9px;
+    right: 675px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+h3 {
+    position: absolute;
+    top: 9px;
+    right: 750px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: cursive;
 }
